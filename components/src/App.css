@@ -1,0 +1,38 @@
+*{
+    margin: 0 auto;
+}
+button:hover{
+    background-color: rgb(207, 207, 207);
+}
+.products-container{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+.products-container  > div{
+    border-left: solid gray 16px;
+}
+.products-container > :last-child{
+    border-right: solid gray 16px;
+}
+
+.app-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.app-container > div{
+    margin-bottom: 20px;
+}
+
+.button-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.assignCourierBtn,.deliverOrderBtn,.loadBtn{
+    width: fit-content;
+    height: fit-content;
+    font-size: 24pt;
+}
